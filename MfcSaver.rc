@@ -1,0 +1,162 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "scrnsave.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""scrnsave.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\MfcSaver.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ID_APP                  ICON                    "res\\MfcSaver.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_SCRNSAVECONFIGURE DIALOGEX 0, 0, 266, 236
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_APPWINDOW
+CAPTION "HGRSaver"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,214,2,50,17,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Cancel",IDCANCEL,214,20,50,17,0,WS_EX_CLIENTEDGE
+    CONTROL         "Stretch Histogram (increases contrast)",IDC_CHKHIST,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,2,135,10
+    CONTROL         "Perceptual Color Matching",IDC_CHKCOLOR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,19,99,10
+    CONTROL         "Accumulate Errors (turn off to reduce dithering)",IDC_CHKERRORS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,38,162,10
+    CONTROL         "Green Screen Mode",IDC_CHKGREEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,2,58,80,10
+    CONTROL         "Display only on one fixed monitor",IDC_CHKMONITOR,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,51,182,119,10
+    LTEXT           "Change Time",IDC_STATIC,2,78,43,8
+    LTEXT           "Load Speed",IDC_STATIC,2,111,40,8
+    LTEXT           "Image Path:",IDC_STATIC,2,138,39,8
+    LTEXT           "Select a coordinate on the desired monitor:",IDC_STATIC,67,197,136,8
+    LTEXT           "X:",IDC_STATIC,67,214,8,8
+    LTEXT           "Y:",IDC_STATIC,135,215,8,8
+    EDITTEXT        IDC_PATH,2,151,242,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,247,151,17,14
+    EDITTEXT        IDC_XPOS,77,212,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YPOS,145,212,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDESPEED,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,2,121,262,15
+    CONTROL         "",IDC_SLIDETIME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,2,90,262,15
+    GROUPBOX        "Advanced",IDC_STATIC,2,165,262,69
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    DLG_SCRNSAVECONFIGURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 264
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 234
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    1                       "Funkystars"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\MfcSaver.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
